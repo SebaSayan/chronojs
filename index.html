@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrono</title>
+    <link rel="shortcut icon" href="stopwatch.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <script defer src="./index.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Temps de pause</h1>
+        <button id="menu"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+    </header>
+
+    <section>
+        <div id="serie" class="reverse">
+            <button id="s0" value="0" title="Off">0</button>
+            <button id="s1" value="1">1</button>
+            <button id="s2" value="2">2</button>
+            <button id="s3" value="3">3</button>
+            <button id="s4" value="4">4</button>
+            <button id="s5" value="5">5</button>
+            <button id="s6" value="6">6</button>
+        </div>
+    </section>
+
+    <div class="pop-up" id="popup">
+        <div class="pop-up-container">
+            <h3>Réglage</h3>
+            <p>Travaux</p>
+            <i class="far fa-times-circle" id="closeBtn"></i>
+        </div>
+    </div>
+
+</body>
+
+</html>
